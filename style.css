@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #242529;
+    user-select: none;
+}
+
+.calcBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    background: linear-gradient(#343a3f, #181a1e);
+    box-shadow:
+        0px 0px 50px #19191b,
+        inset -6px -6px 10px rgba(0,0,0,0.3),
+        inset 6px 6px 10px rgba(255, 255, 255, 0.11);
+    border-radius: 20px;
+}
+
+.keypad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.calcButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    width: 2em;
+    height: 2em;
+    margin: 0.3em;
+    background: linear-gradient(135deg, #343a3f, #181a1e);
+    box-shadow:
+        5px 5px 10px rgba(0, 0, 0, 0.363),
+        -5px -5px 10px rgba(255, 255, 255, 0.089);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: text-shadow 0.2s;
+    color: #dae1e6;
+}
+
+.zeroButton {
+    width: 4.6em;
+}
+.screenDisplay {
+    width: 100%;
+    height: 5.3em;
+    margin: 0 0.3em;
+    background-color: #19191b;
+    border-radius: 10px;
+    padding: 20px 15px;
+    margin-bottom: 1.5em;
+}
+
+.screenText {
+    color: #fff;
+    font-size: 2.5em;
+    text-align: right;
+    width: 100%;
+}
+
+.opButton {
+    color: #39c0e9;
+}
+
+.calcButton:hover {
+    text-shadow: 0px 0px 10px #dae1e6, 0px 0px 20px #dae1e6;
+}
+
+.opButton:hover {
+    text-shadow: 0px 0px 10px #39c0e9, 0px 0px 20px #39c0e9;
+}
+
+.calcButton:active {
+    background: linear-gradient(315deg, #343a3f, #181a1e);
+    box-shadow:
+        -5px -5px 10px rgba(0, 0, 0, 0.363),
+        5px 5px 10px rgba(255, 255, 255, 0.089);
+}
