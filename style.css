@@ -102,4 +102,9 @@ body {
     box-shadow:
         -5px -5px 10px rgba(0, 0, 0, 0.363),
         5px 5px 10px rgba(255, 255, 255, 0.089);
+    text-shadow: 0px 0px 10px #dae1e6, 0px 0px 20px #dae1e6;
+}
+
+.opButton:active {
+    text-shadow: 0px 0px 10px #39c0e9, 0px 0px 20px #39c0e9;
 }
