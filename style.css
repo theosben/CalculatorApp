@@ -86,11 +86,11 @@ body {
     color: #39c0e9;
 }
 
-.calcButton:hover {
+.calcButton:hover, .calcButton:active {
     text-shadow: 0px 0px 10px #dae1e6, 0px 0px 20px #dae1e6;
 }
 
-.opButton:hover {
+.opButton:hover, .opButton:active {
     text-shadow: 0px 0px 10px #39c0e9, 0px 0px 20px #39c0e9;
 }
 
